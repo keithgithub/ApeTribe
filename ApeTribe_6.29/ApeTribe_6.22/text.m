@@ -72,12 +72,12 @@
         }
         
     }
-    if (atArray1.count>0) {
-        for (int i=0; i<atArray1.count; i++) {
-            [strM addAttribute:NSForegroundColorAttributeName value:[UIColor grayColor] range:NSMakeRange([atArray1[i]integerValue],[atArray2[i]integerValue])];
-        }
-        
-    }
+//    if (atArray1.count>0) {
+//        for (int i=0; i<atArray1.count; i++) {
+//            [strM addAttribute:NSForegroundColorAttributeName value:[UIColor grayColor] range:NSMakeRange([atArray1[i]integerValue],[atArray2[i]integerValue])];
+//        }
+//        
+//    }
     
     
     

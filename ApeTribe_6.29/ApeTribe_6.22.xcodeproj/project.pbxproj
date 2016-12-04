@@ -580,6 +580,10 @@
 		0FFCE7E11D2BB44E009444C6 /* follow_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFCE7DD1D2BB44E009444C6 /* follow_on.png */; };
 		0FFCE7E21D2BB44E009444C6 /* follow_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFCE7DE1D2BB44E009444C6 /* follow_on@2x.png */; };
 		0FFD64661D25606700898471 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD64651D25606700898471 /* DetailTableViewCell.xib */; };
+		49212F071DF475F100428DFE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 49212F031DF475F100428DFE /* 1.png */; };
+		49212F081DF475F100428DFE /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 49212F041DF475F100428DFE /* 2.png */; };
+		49212F091DF475F100428DFE /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 49212F051DF475F100428DFE /* 3.png */; };
+		49212F0A1DF475F100428DFE /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 49212F061DF475F100428DFE /* 4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1465,6 +1469,10 @@
 		0FFCE7DD1D2BB44E009444C6 /* follow_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = follow_on.png; sourceTree = "<group>"; };
 		0FFCE7DE1D2BB44E009444C6 /* follow_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "follow_on@2x.png"; sourceTree = "<group>"; };
 		0FFD64651D25606700898471 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		49212F031DF475F100428DFE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		49212F041DF475F100428DFE /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		49212F051DF475F100428DFE /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		49212F061DF475F100428DFE /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2672,6 +2680,7 @@
 			children = (
 				0FF5D9311D38B2E900F288F3 /* Test */,
 				0FE5100C1D1A8D1000C1DCC5 /* ApeTribe_6.22 */,
+				49212F021DF475F100428DFE /* imageshow */,
 				0FE510301D1ACB2F00C1DCC5 /* FrameWorks */,
 				0FE5100B1D1A8D0F00C1DCC5 /* Products */,
 			);
@@ -3003,6 +3012,18 @@
 			name = Test;
 			sourceTree = "<group>";
 		};
+		49212F021DF475F100428DFE /* imageshow */ = {
+			isa = PBXGroup;
+			children = (
+				49212F031DF475F100428DFE /* 1.png */,
+				49212F041DF475F100428DFE /* 2.png */,
+				49212F051DF475F100428DFE /* 3.png */,
+				49212F061DF475F100428DFE /* 4.png */,
+			);
+			name = imageshow;
+			path = ApeTribe_6.22/imageshow;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3120,6 +3141,7 @@
 				0F003B571D2CE8610017D1F3 /* widget-original@2x.png in Resources */,
 				0F5D3AE91D2A1E8A00C45C99 /* qrcode_scan_titlebar_back_nor@2x.png in Resources */,
 				0F629E3E1D24D02800C6AF42 /* EventTableViewCell.xib in Resources */,
+				49212F0A1DF475F100428DFE /* 4.png in Resources */,
 				0FDB185A1D34D21700B5BCBF /* Expression_53@2x.png in Resources */,
 				0FC615E51D238A0600DBCF38 /* drom@3x.png in Resources */,
 				0FDB184F1D34D21700B5BCBF /* Expression_43@2x.png in Resources */,
@@ -3128,6 +3150,7 @@
 				0FD4799C1D250FE9009B3FBD /* DetailTableViewHeader.xib in Resources */,
 				0FEEB6CD1D2600DA00BC8EEA /* toolbar-comments@2x.png in Resources */,
 				0FDB18621D34D21700B5BCBF /* Expression_60@2x.png in Resources */,
+				49212F091DF475F100428DFE /* 3.png in Resources */,
 				0F5D3AF31D2A1E9900C45C99 /* send@3x.jpg in Resources */,
 				0FF4DF581D2D0F71000CDD8A /* collect.png in Resources */,
 				0F29B5C21D1CFD7B00A96E9E /* icon_tabbar_normal_3@2x.png in Resources */,
@@ -3201,6 +3224,7 @@
 				0F7DEAAF1D229F45003B451D /* topbar_back_normal@2x.png in Resources */,
 				0F03B1BB1D2607AE00EE51E2 /* userinfo_icon_female.png in Resources */,
 				0FDB18281D34D21700B5BCBF /* DeleteEmoticonBtn_ios7@2x.png in Resources */,
+				49212F071DF475F100428DFE /* 1.png in Resources */,
 				0FDB18341D34D21700B5BCBF /* Expression_19@2x.png in Resources */,
 				0FCD7A9D1D261048009C1488 /* BaseTableViewController.xib in Resources */,
 				0FDB18481D34D21700B5BCBF /* Expression_37@2x.png in Resources */,
@@ -3255,6 +3279,7 @@
 				0F515D1B1D2B9CD300453983 /* UMSCommentInputControlleriPad.xib in Resources */,
 				0F951E3D1D2B8AB600281872 /* widget-original@3x.png in Resources */,
 				0F29B5E01D1D06A900A96E9E /* icon_tabbar_selected_4@2x.png in Resources */,
+				49212F081DF475F100428DFE /* 2.png in Resources */,
 				0FC615A51D235C2500DBCF38 /* login_wechat_icon.png in Resources */,
 				0FEEB6D91D2600DA00BC8EEA /* toolbar-starred@2x.png in Resources */,
 				0F3330CD1D23F8F20075E329 /* voice_play.png in Resources */,
