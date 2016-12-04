@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3a558e82-4b39-4c49-ae39-c99806dad4a6++9908",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3a558e82-4b39-4c49-ae39-c99806dad4a6++9908" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3a558e82-4b39-4c49-ae39-c99806dad4a6++9908" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "824DEDF9-5AC9-4F6D-BBA6-CF841B5BC17B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3a558e82-4b39-4c49-ae39-c99806dad4a6++9908" : "ApeTribe_7.14\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ApeTribe_6.22",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Ape7.13\/ApeTribe_6.29\/ApeTribe_6.22.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.10.252:81\/svn\/ios26",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3a558e82-4b39-4c49-ae39-c99806dad4a6++9908"
+    }
+  ]
+}

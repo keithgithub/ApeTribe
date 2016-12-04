@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="92" id="Mzk-49-2bx" customClass="DetailTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mzk-49-2bx" id="c36-WJ-GfB">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iLB-Zf-ibA">
+                        <rect key="frame" x="10" y="10" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="2ST-gB-d42"/>
+                            <constraint firstAttribute="width" constant="35" id="W34-TS-CXF"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="merry christmas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBO-KF-CqY">
+                        <rect key="frame" x="55" y="10" width="255" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="FC5-dq-3MO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40分钟前" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oJ-ha-yIj">
+                        <rect key="frame" x="67" y="30" width="53" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Nem-Sf-9r7"/>
+                            <constraint firstAttribute="width" constant="53" id="bWN-5a-D3n"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="x5t-es-Y7n">
+                        <rect key="frame" x="120" y="30" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="FiE-bj-3Zo"/>
+                            <constraint firstAttribute="height" constant="15" id="jGw-97-Hcq"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJg-4r-8RD">
+                        <rect key="frame" x="131" y="30" width="46" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="46" id="5Pr-69-BTC"/>
+                            <constraint firstAttribute="height" constant="15" id="7tY-PZ-9Fp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EjP-uG-4fh">
+                        <rect key="frame" x="55" y="50" width="255" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="VvH-9V-VBh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRb-pw-jY8">
+                        <rect key="frame" x="10" y="78" width="300" height="1"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="mtX-Xl-4Mh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time.png" translatesAutoresizingMaskIntoConstraints="NO" id="hUw-nW-bSt">
+                        <rect key="frame" x="55" y="32" width="12" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="0CU-cv-NPg"/>
+                            <constraint firstAttribute="width" constant="12" id="Hdl-Ki-QmE"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hUw-nW-bSt" firstAttribute="top" secondItem="fBO-KF-CqY" secondAttribute="bottom" constant="7" id="AdO-Rw-arv"/>
+                    <constraint firstItem="hUw-nW-bSt" firstAttribute="leading" secondItem="iLB-Zf-ibA" secondAttribute="trailing" constant="10" id="EcR-1U-FbD"/>
+                    <constraint firstItem="iLB-Zf-ibA" firstAttribute="top" secondItem="c36-WJ-GfB" secondAttribute="top" constant="10" id="F5C-F6-0Pm"/>
+                    <constraint firstAttribute="trailing" secondItem="EjP-uG-4fh" secondAttribute="trailing" constant="10" id="G2K-te-MVB"/>
+                    <constraint firstItem="8oJ-ha-yIj" firstAttribute="top" secondItem="fBO-KF-CqY" secondAttribute="bottom" constant="5" id="JhD-p6-fSu"/>
+                    <constraint firstItem="EjP-uG-4fh" firstAttribute="top" secondItem="UJg-4r-8RD" secondAttribute="bottom" constant="5" id="N8y-gN-UsR"/>
+                    <constraint firstItem="fBO-KF-CqY" firstAttribute="top" secondItem="c36-WJ-GfB" secondAttribute="top" constant="10" id="OKE-TT-bax"/>
+                    <constraint firstItem="fBO-KF-CqY" firstAttribute="leading" secondItem="iLB-Zf-ibA" secondAttribute="trailing" constant="10" id="P5U-6c-q0C"/>
+                    <constraint firstItem="8oJ-ha-yIj" firstAttribute="leading" secondItem="hUw-nW-bSt" secondAttribute="trailing" id="Txn-d1-Xzl"/>
+                    <constraint firstItem="iLB-Zf-ibA" firstAttribute="leading" secondItem="c36-WJ-GfB" secondAttribute="leading" constant="10" id="ZUQ-yP-zkD"/>
+                    <constraint firstAttribute="bottom" secondItem="NRb-pw-jY8" secondAttribute="bottom" id="cmc-B3-rh4"/>
+                    <constraint firstItem="x5t-es-Y7n" firstAttribute="top" secondItem="fBO-KF-CqY" secondAttribute="bottom" constant="5" id="hw0-Xr-Ale"/>
+                    <constraint firstItem="UJg-4r-8RD" firstAttribute="leading" secondItem="x5t-es-Y7n" secondAttribute="trailing" constant="-4" id="jRD-xd-YuK"/>
+                    <constraint firstItem="EjP-uG-4fh" firstAttribute="leading" secondItem="c36-WJ-GfB" secondAttribute="leading" constant="55" id="nfj-nm-5Gf"/>
+                    <constraint firstAttribute="trailing" secondItem="fBO-KF-CqY" secondAttribute="trailing" constant="10" id="tSV-N3-ufX"/>
+                    <constraint firstItem="UJg-4r-8RD" firstAttribute="top" secondItem="fBO-KF-CqY" secondAttribute="bottom" constant="5" id="tmU-Kt-fUo"/>
+                    <constraint firstItem="x5t-es-Y7n" firstAttribute="leading" secondItem="8oJ-ha-yIj" secondAttribute="trailing" id="vZI-TT-fpl"/>
+                    <constraint firstItem="NRb-pw-jY8" firstAttribute="leading" secondItem="c36-WJ-GfB" secondAttribute="leading" constant="10" id="veS-Ij-Q54"/>
+                    <constraint firstAttribute="trailing" secondItem="NRb-pw-jY8" secondAttribute="trailing" constant="10" id="y6z-Hd-Y5z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentHLayout" destination="VvH-9V-VBh" id="hyA-tj-RWt"/>
+                <outlet property="imgVDevice" destination="x5t-es-Y7n" id="fcd-mW-3ya"/>
+                <outlet property="imgVHead" destination="iLB-Zf-ibA" id="Wru-Bi-gUK"/>
+                <outlet property="imgVPushTime" destination="hUw-nW-bSt" id="kVI-oH-aBT"/>
+                <outlet property="lblComment" destination="EjP-uG-4fh" id="iA6-4H-QaA"/>
+                <outlet property="lblCutLines" destination="NRb-pw-jY8" id="YBU-72-rO9"/>
+                <outlet property="lblDevice" destination="UJg-4r-8RD" id="J4t-eQ-i6R"/>
+                <outlet property="lblName" destination="fBO-KF-CqY" id="Uj2-it-7bb"/>
+                <outlet property="lblPushTime" destination="8oJ-ha-yIj" id="F6N-hB-vQH"/>
+            </connections>
+            <point key="canvasLocation" x="261" y="205"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="1.jpg" width="300" height="300"/>
+        <image name="iphone.png" width="15" height="15"/>
+        <image name="time.png" width="15" height="15"/>
+    </resources>
+</document>

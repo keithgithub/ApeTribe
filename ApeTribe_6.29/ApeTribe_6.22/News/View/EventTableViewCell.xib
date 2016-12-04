@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventCell" rowHeight="100" id="KGk-i7-Jjw" customClass="EventTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="102"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crm_card.png" translatesAutoresizingMaskIntoConstraints="NO" id="jhV-U6-JLN">
+                        <rect key="frame" x="8" y="11" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="BHq-jp-8zv"/>
+                            <constraint firstAttribute="width" constant="80" id="Btq-oX-KaU"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MPD软件工作坊（上海站）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22Q-0N-0d3">
+                        <rect key="frame" x="96" y="11" width="216" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正在报名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjG-RH-rU6">
+                        <rect key="frame" x="96" y="35" width="47" height="20"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Coi-QS-7j7"/>
+                            <constraint firstAttribute="width" constant="47" id="GQg-ge-QtE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.3292800526783991" green="0.96138743455497377" blue="0.36805911428915922" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="站外活动" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjJ-q5-Li9">
+                        <rect key="frame" x="151" y="35" width="47" height="20"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="80Y-xl-fJy"/>
+                            <constraint firstAttribute="width" constant="47" id="qux-9i-fx3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.38839577879581155" green="0.38839577879581155" blue="0.38839577879581155" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-09-09 08:55" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crH-F7-K4v">
+                        <rect key="frame" x="96" y="71" width="144" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="rVi-4U-cvi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18人参与" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1D2-c5-HcO">
+                        <rect key="frame" x="242" y="71" width="70" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="HKt-da-kXU"/>
+                            <constraint firstAttribute="height" constant="21" id="HfI-yT-3Di"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="1D2-c5-HcO" secondAttribute="bottom" constant="9" id="246-Nz-5ef"/>
+                    <constraint firstItem="crH-F7-K4v" firstAttribute="top" secondItem="pjG-RH-rU6" secondAttribute="bottom" constant="16" id="43g-uc-G7A"/>
+                    <constraint firstItem="crH-F7-K4v" firstAttribute="top" secondItem="hjJ-q5-Li9" secondAttribute="bottom" constant="16" id="7Ue-Am-uYC"/>
+                    <constraint firstItem="jhV-U6-JLN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="84v-4x-ZOP"/>
+                    <constraint firstItem="crH-F7-K4v" firstAttribute="leading" secondItem="jhV-U6-JLN" secondAttribute="trailing" constant="8" id="9Vb-NZ-mxE"/>
+                    <constraint firstAttribute="trailing" secondItem="22Q-0N-0d3" secondAttribute="trailing" constant="8" id="9lB-vB-gd5"/>
+                    <constraint firstItem="hjJ-q5-Li9" firstAttribute="top" secondItem="22Q-0N-0d3" secondAttribute="bottom" constant="3" id="NYs-D0-OUl"/>
+                    <constraint firstItem="1D2-c5-HcO" firstAttribute="leading" secondItem="crH-F7-K4v" secondAttribute="trailing" constant="2" id="P1Q-ci-kwr"/>
+                    <constraint firstItem="22Q-0N-0d3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="UbB-D2-OH7"/>
+                    <constraint firstItem="22Q-0N-0d3" firstAttribute="leading" secondItem="jhV-U6-JLN" secondAttribute="trailing" constant="8" id="YxX-pb-ozQ"/>
+                    <constraint firstItem="jhV-U6-JLN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="c4b-Vo-sTP"/>
+                    <constraint firstAttribute="trailing" secondItem="1D2-c5-HcO" secondAttribute="trailing" constant="8" id="lGw-d4-xAY"/>
+                    <constraint firstItem="hjJ-q5-Li9" firstAttribute="leading" secondItem="pjG-RH-rU6" secondAttribute="trailing" constant="8" id="oPn-ty-OhT"/>
+                    <constraint firstAttribute="bottom" secondItem="crH-F7-K4v" secondAttribute="bottom" constant="9" id="wdy-xa-w9T"/>
+                    <constraint firstItem="pjG-RH-rU6" firstAttribute="leading" secondItem="jhV-U6-JLN" secondAttribute="trailing" constant="8" id="zg6-0D-R2v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="actor_count" destination="1D2-c5-HcO" id="cot-aw-50g"/>
+                <outlet property="category" destination="hjJ-q5-Li9" id="u1v-kR-fkF"/>
+                <outlet property="img" destination="jhV-U6-JLN" id="kTn-Ld-TQY"/>
+                <outlet property="startTime" destination="crH-F7-K4v" id="BtG-VB-tvV"/>
+                <outlet property="status" destination="pjG-RH-rU6" id="N38-Xr-Cq3"/>
+                <outlet property="title" destination="22Q-0N-0d3" id="4OA-xn-QSM"/>
+            </connections>
+            <point key="canvasLocation" x="390" y="219"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="crm_card.png" width="45" height="45"/>
+    </resources>
+</document>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="fansCell" selectionStyle="default" indentationWidth="10" rowHeight="58" id="KGk-i7-Jjw" customClass="FansTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="321" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周杰伦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uNG-1j-JXa">
+                        <rect key="frame" x="56" y="8" width="193" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="IpC-VE-5md"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0017739350680000001" green="0.62473958330000001" blue="0.0027524217760000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15分钟前" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9D-kc-f7Z">
+                        <rect key="frame" x="237" y="4" width="76" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="4XD-mK-62o"/>
+                            <constraint firstAttribute="width" constant="76" id="pIJ-Gw-n94"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2封私信" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nyb-Pb-BnU">
+                        <rect key="frame" x="237" y="33" width="76" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="76" id="Zun-hr-gXd"/>
+                            <constraint firstAttribute="height" constant="21" id="o4t-tI-x0v"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS开发" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNg-w2-cKw">
+                        <rect key="frame" x="56" y="28" width="257" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="imO-no-Abc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivK-GD-hJC">
+                        <rect key="frame" x="8" y="8" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Caj-09-dYJ"/>
+                            <constraint firstAttribute="width" constant="40" id="Fq9-wX-2xe"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="headIcon_placeholder.png"/>
+                        <connections>
+                            <action selector="btnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="mZe-Nn-Xhr"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Nyb-Pb-BnU" secondAttribute="trailing" constant="8" id="51b-vq-hF4"/>
+                    <constraint firstItem="yNg-w2-cKw" firstAttribute="leading" secondItem="ivK-GD-hJC" secondAttribute="trailing" constant="8" id="9n9-cy-cDS"/>
+                    <constraint firstItem="uNG-1j-JXa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Awy-0F-rhP"/>
+                    <constraint firstItem="ivK-GD-hJC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Lil-9H-Zbh"/>
+                    <constraint firstAttribute="trailing" secondItem="Y9D-kc-f7Z" secondAttribute="trailing" constant="8" id="UhZ-9O-1kL"/>
+                    <constraint firstItem="Y9D-kc-f7Z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="b5s-AN-NOm"/>
+                    <constraint firstAttribute="trailing" secondItem="uNG-1j-JXa" secondAttribute="trailing" constant="72" id="bDJ-QY-lv0"/>
+                    <constraint firstAttribute="trailing" secondItem="yNg-w2-cKw" secondAttribute="trailing" constant="8" id="e9J-17-ulg"/>
+                    <constraint firstItem="uNG-1j-JXa" firstAttribute="leading" secondItem="ivK-GD-hJC" secondAttribute="trailing" constant="8" id="jGF-Vh-0mO"/>
+                    <constraint firstItem="yNg-w2-cKw" firstAttribute="top" secondItem="Y9D-kc-f7Z" secondAttribute="bottom" constant="3" id="phx-to-LH6"/>
+                    <constraint firstAttribute="bottom" secondItem="Nyb-Pb-BnU" secondAttribute="bottom" constant="3" id="xkF-id-8tm"/>
+                    <constraint firstItem="ivK-GD-hJC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="zJK-ZC-VEw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailLb" destination="yNg-w2-cKw" id="69h-pF-fS5"/>
+                <outlet property="msgCount" destination="Nyb-Pb-BnU" id="zdw-te-ZOy"/>
+                <outlet property="nameLb" destination="uNG-1j-JXa" id="Wq9-01-MmI"/>
+                <outlet property="portraitButton" destination="ivK-GD-hJC" id="E8w-Cg-tk9"/>
+                <outlet property="timeLb" destination="Y9D-kc-f7Z" id="5xJ-OF-gbQ"/>
+            </connections>
+            <point key="canvasLocation" x="266.5" y="235"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="headIcon_placeholder.png" width="80" height="80"/>
+    </resources>
+</document>

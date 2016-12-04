@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="expressionView" id="iN0-l3-epB" customClass="ExpressionView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eya-qm-d4L">
+                    <rect key="frame" x="268" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="3iG-SD-Fy1"/>
+                        <constraint firstAttribute="width" constant="40" id="krb-R0-FFG"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="deleate.png"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fo4-vB-7zs">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="lCF-Ik-c7c"/>
+                    </constraints>
+                </view>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="Pff-f6-PAa">
+                    <rect key="frame" x="8" y="443" width="304" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="dll-rN-bFa"/>
+                    </constraints>
+                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" red="0.76862745099999996" green="0.41568627450000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="eya-qm-d4L" secondAttribute="trailing" constant="12" id="0zX-se-41O"/>
+                <constraint firstItem="eya-qm-d4L" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1jf-sW-gyz"/>
+                <constraint firstItem="fo4-vB-7zs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5hn-n1-lEb"/>
+                <constraint firstAttribute="bottom" secondItem="Pff-f6-PAa" secondAttribute="bottom" id="DEI-9O-1dz"/>
+                <constraint firstAttribute="trailing" secondItem="fo4-vB-7zs" secondAttribute="trailing" id="VIt-Lh-3mq"/>
+                <constraint firstItem="fo4-vB-7zs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Xnt-sq-Td8"/>
+                <constraint firstAttribute="trailing" secondItem="Pff-f6-PAa" secondAttribute="trailing" constant="8" id="c8t-Yo-uJS"/>
+                <constraint firstItem="Pff-f6-PAa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="maa-bI-fc1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnDelete" destination="eya-qm-d4L" id="9ar-b0-hfs"/>
+                <outlet property="hengV_H" destination="lCF-Ik-c7c" id="YMw-AF-lme"/>
+                <outlet property="page" destination="Pff-f6-PAa" id="Qhf-FW-z2Z"/>
+            </connections>
+            <point key="canvasLocation" x="110" y="174"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="deleate.png" width="150" height="150"/>
+    </resources>
+</document>

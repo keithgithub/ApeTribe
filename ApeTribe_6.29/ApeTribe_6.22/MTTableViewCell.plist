@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>comment</key>
+		<string>tab1_chat_off@2x.png</string>
+		<key>btnZan</key>
+		<string>musiccircle_zan.png</string>
+		<key>zan</key>
+		<string>某某某觉得很赞</string>
+		<key>content</key>
+		<string>我爱敲代码？！</string>
+		<key>devices</key>
+		<string>iPhone 4s</string>
+		<key>pushTime</key>
+		<string>40分钟前</string>
+		<key>name</key>
+		<string>我爱敲代码</string>
+		<key>image</key>
+		<string>head.jpg</string>
+	</dict>
+	<dict>
+		<key>comment</key>
+		<string>tab1_chat_off@2x.png</string>
+		<key>btnZan</key>
+		<string>musiccircle_zan.png</string>
+		<key>zan</key>
+		<string>某某某觉得很赞</string>
+		<key>content</key>
+		<string>我不爱敲代码？！</string>
+		<key>devices</key>
+		<string>iPhone 5</string>
+		<key>pushTime</key>
+		<string>50分钟前</string>
+		<key>name</key>
+		<string>我不爱敲代码</string>
+		<key>image</key>
+		<string>1.jpg</string>
+	</dict>
+	<dict>
+		<key>comment</key>
+		<string>tab1_chat_off@2x.png</string>
+		<key>btnZan</key>
+		<string>musiccircle_zan.png</string>
+		<key>zan</key>
+		<string>某某某觉得很赞</string>
+		<key>content</key>
+		<string>我真的爱敲代码？！</string>
+		<key>devices</key>
+		<string>iPhone 5s</string>
+		<key>pushTime</key>
+		<string>1小时前</string>
+		<key>name</key>
+		<string>我真的爱敲代码</string>
+		<key>image</key>
+		<string>2.jpg</string>
+	</dict>
+	<dict>
+		<key>comment</key>
+		<string>tab1_chat_off@2x.png</string>
+		<key>btnZan</key>
+		<string>musiccircle_zan.png</string>
+		<key>zan</key>
+		<string>某某某觉得很赞</string>
+		<key>content</key>
+		<string>我真的不爱敲代码？！</string>
+		<key>devices</key>
+		<string>iPhone 6</string>
+		<key>pushTime</key>
+		<string>30分钟前</string>
+		<key>name</key>
+		<string>我真的不爱敲代码</string>
+		<key>image</key>
+		<string>3.jpg</string>
+	</dict>
+	<dict>
+		<key>comment</key>
+		<string>tab1_chat_off@2x.png</string>
+		<key>btnZan</key>
+		<string>musiccircle_zan.png</string>
+		<key>zan</key>
+		<string>某某某觉得很赞</string>
+		<key>content</key>
+		<string>我也许爱敲代码？！</string>
+		<key>devices</key>
+		<string>iPhone 6Plus</string>
+		<key>pushTime</key>
+		<string>20分钟前</string>
+		<key>name</key>
+		<string>我也许爱敲代码</string>
+		<key>image</key>
+		<string>4.jpg</string>
+	</dict>
+	<dict>
+		<key>comment</key>
+		<string>tab1_chat_off@2x.png</string>
+		<key>btnZan</key>
+		<string>musiccircle_zan.png</string>
+		<key>zan</key>
+		<string>某某某觉得很赞</string>
+		<key>content</key>
+		<string>我也许不爱敲代码？！</string>
+		<key>devices</key>
+		<string>iPhone 6s</string>
+		<key>pushTime</key>
+		<string>10分钟前</string>
+		<key>name</key>
+		<string>我也许不爱敲代码</string>
+		<key>image</key>
+		<string>head.jpg</string>
+	</dict>
+</array>
+</plist>

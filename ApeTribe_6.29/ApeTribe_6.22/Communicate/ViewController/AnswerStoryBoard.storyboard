@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Answer View Controller-->
+        <scene sceneID="pgR-jA-rKw">
+            <objects>
+                <viewController storyboardIdentifier="AnswerVC" id="89z-Cn-Frj" customClass="AnswerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sWW-g4-3XO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q79-h3-CCf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qGH-Zv-d5k">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i2Y-Lr-pSc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189" y="-966"/>
+        </scene>
+        <!--Post Detail View Controller-->
+        <scene sceneID="RbB-Hj-AAt">
+            <objects>
+                <viewController storyboardIdentifier="PostDetailVC" id="MsB-eO-jva" customClass="PostDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jee-36-IZK"/>
+                        <viewControllerLayoutGuide type="bottom" id="kEx-av-evi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iBZ-4z-LuR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cng-By-nGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="527" y="-966"/>
+        </scene>
+        <!--Tags Post View Controller-->
+        <scene sceneID="FL5-Yr-4FI">
+            <objects>
+                <viewController storyboardIdentifier="TagsPostVC" id="vl1-3W-OX2" customClass="TagsPostViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7io-bi-S3E"/>
+                        <viewControllerLayoutGuide type="bottom" id="fAl-py-Qnf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zFn-qV-L6N">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M0b-cv-SEc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="-966"/>
+        </scene>
+    </scenes>
+</document>

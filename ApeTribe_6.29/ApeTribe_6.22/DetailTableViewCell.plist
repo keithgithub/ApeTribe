@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>device</key>
+		<string>iPhone</string>
+		<key>pushTime</key>
+		<string>40分钟前</string>
+		<key>image</key>
+		<string>1.jpg</string>
+		<key>name</key>
+		<string>陈冠西</string>
+		<key>comment</key>
+		<string>我只想安静地做一个摄影师！不要来打扰我做摄影师啊，我从未见过有如此厚颜无耻之人！啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</string>
+	</dict>
+	<dict>
+		<key>device</key>
+		<string>Android</string>
+		<key>pushTime</key>
+		<string>50分钟前</string>
+		<key>image</key>
+		<string>2.jpg</string>
+		<key>name</key>
+		<string>陈冠东</string>
+		<key>comment</key>
+		<string>我也只想安静地做一个摄影师！我都是被逼的，逼得无路可走了，好伤啊！</string>
+	</dict>
+	<dict>
+		<key>device</key>
+		<string>iPhone</string>
+		<key>pushTime</key>
+		<string>59分钟前</string>
+		<key>image</key>
+		<string>3.jpg</string>
+		<key>name</key>
+		<string>陈冠南</string>
+		<key>comment</key>
+		<string>我难到不想安静地做一个摄影师？啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</string>
+	</dict>
+	<dict>
+		<key>device</key>
+		<string>Android</string>
+		<key>pushTime</key>
+		<string>58分钟前</string>
+		<key>image</key>
+		<string>4.jpg</string>
+		<key>name</key>
+		<string>陈冠北</string>
+		<key>comment</key>
+		<string>安静地做一个摄影师好难！是事实上事实上事实上事实上事实上事实上事实上事实上事实上事实上事实上事实上是</string>
+	</dict>
+</array>
+</plist>

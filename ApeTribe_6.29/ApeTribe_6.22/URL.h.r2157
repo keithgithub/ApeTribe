@@ -1,0 +1,38 @@
+//
+//  URL.h
+//  XMLForOSC_6_23_2
+//
+//  Created by guan song on 16/6/23.
+//  Copyright © 2016年 hexiulian. All rights reserved.
+//
+
+#ifndef URL_h
+#define URL_h
+
+
+#endif /* URL_h */
+
+#define DDLog(xx, ...)  NSLog(@"%s(%d): " xx, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+
+
+#define  URL_HTTP_PREFIX @"http://www.oschina.net/action/api/"
+
+
+
+#define URL_NEW_LIST @"news_list"
+#define PARAM_NEW_LIST(catalog,pageIndex,pageSize) @{@"catalog":@(catalog),@"pageIndex":@(pageIndex),@"pageSize":@(pageSize)}
+
+#define URL_BLOGGER_LIST @"blog_list"
+#define PARAM_BLOGGER_LIST(type,pageIndex,pageSize) @{@"type":type,@"pageIndex":@(pageIndex),@"pageSize":@(pageSize)}
+
+#define URL_EVENT_LIST @"event_list"
+#define PARAM_EVENT_LIST(uid,pageIndex,pageSize) @{@"type":uid,@"pageIndex":@(pageIndex),@"pageSize":@(pageSize)}
+#define URL_EVENT_DETAIL_LIST @"post_detail"
+#define PARAM_EVENT_DETAIL_LIST(uid) @{@"type":@(uid)}
+
+#define URL_ANSWER_LIST @"post_list"
+#define PARAM_ANSWER_LIST(catalog,pageIndex,pageSize) @{@"catalog":@(catalog),@"pageIndex":@(pageIndex),@"pageSize":@(pageSize)}
+
+#define URL_TWEET_LIST @"tweet_list"
+#define PARAM_TWEET_LIST(user,pageSize,pageIndex)@{@"user":@(user),@"pageSize":@(pageSize),@"pageIndex":@(pageIndex)}
+
